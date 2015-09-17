@@ -1,11 +1,15 @@
 package uk.co.manifesto.javasessions.messenger;
 
-public class Messenger {
+public class MessageManager {
     
+	/**
+	 * Write a test that verifies that the MessageManager succesfully sends an email
+	 */
+	
 	private TemplateEngine templateEngine;
     private MailServer mailServer;
     
-    public Messenger(MailServer mailServer, TemplateEngine templateEngine) {
+    public MessageManager(MailServer mailServer, TemplateEngine templateEngine) {
         this.mailServer = mailServer;
         this.templateEngine = templateEngine;
     }
