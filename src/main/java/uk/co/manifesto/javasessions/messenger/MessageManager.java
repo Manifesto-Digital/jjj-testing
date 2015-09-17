@@ -3,7 +3,7 @@ package uk.co.manifesto.javasessions.messenger;
 public class MessageManager {
     
 	/**
-	 * Write a test that verifies that the MessageManager succesfully sends an email
+	 * Write a test that verifies that the MessageManager successfully sends an email
 	 */
 	
 	private TemplateEngine templateEngine;
