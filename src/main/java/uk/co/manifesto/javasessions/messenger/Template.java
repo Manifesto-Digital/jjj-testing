@@ -1,5 +1,5 @@
 package uk.co.manifesto.javasessions.messenger;
 
-public class Template {
+public interface Template {
 
 }

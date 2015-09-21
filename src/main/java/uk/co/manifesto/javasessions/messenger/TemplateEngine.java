@@ -1,10 +1,6 @@
 package uk.co.manifesto.javasessions.messenger;
 
-public class TemplateEngine {
+public interface TemplateEngine {
 
-	public String prepareMessage(Template template, Client client) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	public String prepareMessage(Template template, Client client);
 }
